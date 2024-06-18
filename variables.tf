@@ -24,12 +24,12 @@ variable "shape" {
 
 variable "ocpus_per_node" {
   type    = number
-  default = 2
+  default = 1
 }
 
 variable "memory_in_gbs_per_node" {
   type    = number
-  default = 12
+  default = 6
 }
 
 variable "image_id" {
@@ -46,7 +46,7 @@ variable "k8s_version" {
 
 variable "node_size" {
   type    = string
-  default = "2"
+  default = "1"
 }
 
 variable "cluster_name" {
